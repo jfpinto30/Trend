@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 613 334" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Icon-logo.svg" serif:id="Icon logo.svg" transform="matrix(0.282927,0,0,0.282927,298,100.537)">
+        <g transform="matrix(1,0,0,1,-307.5,-295)">
+            <g transform="matrix(1.13787,0,0,1.13787,-1.00064,5.13541)">
+                <g id="Logo-Icon-.svg" serif:id="Logo Icon .svg">
+                    <g transform="matrix(0.483217,0.0526232,-0.0685082,0.455513,-325.368,-426.364)">
+                        <g id="Layer2">
+                            <path d="M1811.9,1775.25L1134.75,1041.79L1022.62,919.507" style="fill:none;stroke:black;stroke-width:49.41px;"/>
+                        </g>
+                    </g>
+                    <g id="Layer3" transform="matrix(0.484093,-0.0181619,0.0169622,0.452116,-385.627,-385.238)">
+                        <g transform="matrix(1,0,0,1,46.6473,51.8421)">
+                            <path d="M745.315,1773.1L1507.41,916.475" style="fill:none;stroke:black;stroke-width:71.12px;"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,-39.7621,-45.9166)">
+                            <path d="M1814.03,1118.48C1550.38,1416.71 1286.74,1714.93 1023.09,2013.16" style="fill:none;stroke:black;stroke-width:88.9px;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(7.86821,0,0,7.86821,-2947.25,-2161.13)">
+        <text x="376.456px" y="309.109px" style="font-family:'BanglaMN', 'Bangla MN';font-size:12px;">GET <tspan x="405.789px 414.189px " y="309.109px 309.109px ">TR</tspan>END</text>
+    </g>
+</svg>
