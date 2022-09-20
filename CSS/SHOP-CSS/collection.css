@@ -1,0 +1,153 @@
+@media all and (min-width:310px) and (max-width:780px) {
+    div.collection-container-october img {
+        max-width: 100%;
+    }
+    div.collection-container-october span {
+        max-width: 100%;
+    }
+    span.num {
+        font-size:10em;
+    }
+    span.oct {
+        font-size:5em;
+    }
+    span.coll {
+        font-size:7px;
+        padding-top:30%;  
+    }
+    div.collection-container-autum img{
+        max-width: 100%;
+    }
+
+    div.collection-container-autum span {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    span.autum {
+        font-size: 5em;
+    }
+    span.autum-coll {
+        font-size: 1em;
+        padding-top: 30%;   
+    }
+
+
+
+    div.collection-container-plantVid img{
+        max-width: 100%;
+    }
+    
+   
+    }
+
+.collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+	padding:0;
+	margin:0;
+}
+
+.collection-title h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    letter-spacing: 1rem;
+}
+
+
+/* OCTOBER COLLECTION */
+
+.collection-container-october,.collection-container-autum,.collection-container-plantVid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.coll-oct-img {
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.collection-container-october span {
+    position: absolute;
+    width: 600px;
+    margin: auto;
+    padding-top:auto;
+    right: 5%;
+    text-align: center;
+}
+.num{
+    color: rgba(51, 51, 51, 0.42);
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40em;
+    font-weight: 900;
+}
+.oct{
+    color:#FCFCFC;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 12em;
+    font-weight: 200;
+}
+.coll{
+    color:#FCFCFC;
+    font-size: 2em;
+    font-family: 'Tenor Sans', sans-serif ;
+    font-weight: 100;
+    letter-spacing: 25px;
+    padding-top:13%;
+}
+
+/* AUTUM COLLECTION */
+
+
+
+.collection-container-autum span {
+    position: absolute;
+    width: 600px;
+    margin-bottom: 40%;
+    padding:auto;
+    right: 18%;
+    text-align: center;
+}
+
+.coll-autum-img{
+    margin:10%;
+    width: 800px;
+}
+
+.autum {
+    color: rgba(51, 51, 51, 0.763);
+    font-family: 'Bodoni Moda', serif;
+    font-size: 10em;
+    font-weight: 500;
+}
+.autum-coll {
+    color: rgba(51, 51, 51, 0.763);
+    font-size: 2em;
+    font-family: 'Tenor Sans', sans-serif ;
+    font-weight: 100;
+    letter-spacing: 25px;
+    padding-top:13%;
+}
+
+
+/* PLANT VID */
+
+.coll-plantVid-img {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 10px;
+}

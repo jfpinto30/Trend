@@ -1,0 +1,72 @@
+@media all and (min-width:310px) and (max-width:780px) {
+    div.feature-content{
+        max-width: 100%;
+    }
+    div.content{
+        margin: 20px;
+    }
+    div.content h3{
+        font-size: 15px;
+    }
+    div.content p{
+        font-size: 10px;
+    }
+    div.icon1{
+        max-width: 15%;
+        top:50px;
+    }
+
+}
+
+
+/* 1st SECTION */
+   
+.section1 {
+    background:#f1f1f1;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	padding:10%;
+	margin:0;
+    border-top: 2px solid white;
+  
+}
+
+
+/* SECTION 1 FEATURE GRID CONTAINERS */
+
+.feature-container {
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	padding:20px;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 380px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.content {
+    width: 355px;
+    padding:30px;
+}
+
+.content img {
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+
+
+

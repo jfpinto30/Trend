@@ -1,0 +1,75 @@
+/* SCREEN BREAK POINTS */
+@media all and (min-width:310px) and (max-width:780px) {
+
+}
+
+/* FONTS */
+
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+
+h1 {
+    font-family: 'Tenor Sans', sans-serif ;
+	font-style: Regular;
+    font-size: 85px;
+}
+
+h2 {
+    font-family: 'Tenor Sans', sans-serif;
+	font-style: Regular;
+    font-size: 26px;
+ }
+
+ h3 {
+     font-family: 'Tenor Sans', sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 40px;
+     letter-spacing: 4px;
+ }
+
+ p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+ }
+
+.sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+ /* HTML / BODY */
+ * { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+  
+  html {
+    scroll-behavior:smooth;
+    width: 100%;
+    top:0;
+    left:0;
+   
+  }
+  
+  body {
+      top:0;
+      left:0;
+      margin: 0;
+      padding: 0;
+    
+  }
+  
+
