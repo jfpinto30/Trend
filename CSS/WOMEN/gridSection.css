@@ -1,0 +1,24 @@
+@media  (min-width: 992px){
+    .side-panel {
+        flex: 1 1 25%;
+        margin-left: 3rem;
+        margin-right: 4.8rem;
+        max-width: 29.9rem;
+        min-width: 32rem;
+    }
+    }
+    
+
+
+
+
+
+
+
+    
+    
+    .side-panel {
+        border: 5px solid black;
+        height: 100%;
+        width: 400px;
+    }
