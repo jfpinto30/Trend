@@ -198,7 +198,7 @@ ul {
 
 .navi {
   	position: fixed;
-  	z-index: 1;
+  	z-index: 2;
   	top: 0;
   	right: 0;
   	height: 100%;
@@ -236,6 +236,8 @@ ul {
   	-webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   	-moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   	transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+	
+
 }
 
 .navigation-is-open .navi {
@@ -243,6 +245,7 @@ ul {
   	-webkit-transition: visibility 0s 0s;
   	-moz-transition: visibility 0s 0s;
   	transition: visibility 0s 0s;
+	z-index: 2;
 }
 
 .navigation-is-open .navi .navigation-wrapper {
@@ -257,6 +260,7 @@ ul {
   	-webkit-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
   	-moz-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
   	transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+	
 }
 
 
@@ -274,7 +278,7 @@ ul {
   	font-size: 20px;
   	color: #000000;
   	display: inline-block;
-	  transition: all .2s ease-in-out; 
+	transition: all .2s ease-in-out; 
 
 }
 
@@ -317,12 +321,8 @@ ul {
 	background-color: transparent;	
 	width: 166px;
   }
- .arrow-link {
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	width: 40px;
-	height: 40px;
- }
+ 
+
 
   .dropdown {
 	position: relative;
@@ -341,6 +341,7 @@ ul {
   .dropdown-content a {
 	color: black;
 	padding: 12px 16px;
+	width: 100px;
 	text-decoration: none;
 	display: block;
   }

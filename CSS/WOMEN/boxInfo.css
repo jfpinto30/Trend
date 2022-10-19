@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+	padding:0;
+	margin:0;
+}
+
+.box-info{
+    border: 0.1rem solid #d5d6d6;
+    margin: 3rem 1rem;
+    padding: 2rem;
+    width: 90%;
+}
+
+.box-para p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 1.4rem;
+}
