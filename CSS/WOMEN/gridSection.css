@@ -13,6 +13,7 @@
 
 
 .grid-section{
+    border-top: 1px solid  rgb(202, 201, 201);
     display: block;
     align-items: center;
     justify-content: center;

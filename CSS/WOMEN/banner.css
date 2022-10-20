@@ -17,14 +17,13 @@ body {
 .banner{
     width: 100%;
     height: 650px;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
 }
 
 
 .swiper {
   width: 100%;
-  height: 100%;
-  
+  height: 600px;
 }
 
 .swiper-slide {
@@ -44,6 +43,7 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; 
+  
 }
 
 
@@ -53,8 +53,19 @@ body {
   height: 100%;
   object-fit: cover;
   padding: 5px;
-  
 }
+@media all and (min-width:800px) and (max-width:1400px) {
+  div.swiper-slide img{
+    max-height: 500px;
+  }
+  }
+  @media all and (min-width:1400px) and (max-width:1700px) {
+    div.swiper-slide img{
+      max-height: 500px;
+    }
+  }
+
+
 
 
 .swiper-slide h4{
@@ -76,11 +87,25 @@ body {
     transition: .3s opacity;
     transform: translate3d(0,0,0);
     top: 126%;
+   
 }
 .swiper-pagination span {
-    background-color: #e97b4c;
-    
+    background-color: #e97b4c; 
 }
+@media all and (min-width:800px) and (max-width:1400px) {
+  div.swiper-pagination span {
+    visibility: hidden;
+  }
+}
+@media all and (min-width:1400px) and (max-width:1700px) {
+  div.swiper-pagination span {
+    visibility: hidden;
+  }
+}
+
+
+
+
 .tops {
     background-color: #000;
 }
