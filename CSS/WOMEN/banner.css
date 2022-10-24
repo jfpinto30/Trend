@@ -54,15 +54,10 @@ body {
   object-fit: cover;
   padding: 5px;
 }
-@media all and (min-width:800px) and (max-width:1400px) {
+@media all and (min-width:800px) and (max-width:1700px) {
   div.swiper-slide img{
     max-height: 500px;
   }
-  }
-  @media all and (min-width:1400px) and (max-width:1700px) {
-    div.swiper-slide img{
-      max-height: 500px;
-    }
   }
 
 
@@ -98,6 +93,11 @@ body {
   }
 }
 @media all and (min-width:1400px) and (max-width:1700px) {
+  div.swiper-pagination span {
+    visibility: hidden;
+  }
+}
+@media all and (min-width:1700px) and (max-width:1900px) {
   div.swiper-pagination span {
     visibility: hidden;
   }

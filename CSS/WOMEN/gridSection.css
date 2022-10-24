@@ -13,11 +13,9 @@
 
 
 .grid-section{
-    border-top: 1px solid  rgb(202, 201, 201);
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     margin: 0;
     padding:0;
     width: 100%;
@@ -27,11 +25,13 @@
     
    
     .grid{
+        border-top: 1px solid  rgb(202, 201, 201);
         padding: 1.5rem;
         transition: opacity .2s linear,-webkit-filter .2s linear;
         transition: filter .2s linear,opacity .2s linear;
         transition: filter .2s linear,opacity .2s linear,-webkit-filter .2s linear;
         margin-top: 10px;
+        display: block;
     }
     
 
@@ -44,6 +44,8 @@
         grid-auto-rows:mimax(min-content,max-content);
         margin: 10px;
     }
+      
+
 
     .grid-container{
         width:100%;
