@@ -1,5 +1,6 @@
 .side-nav {
     display:block;
+    padding: 10px;    
 }
 @media (min-width: 992px){
     div.side-nav{
@@ -18,16 +19,17 @@
 }
 
 .links-select{
-    padding: 2rem 0 3rem;
+    padding: 1rem 0 1rem;
 }
+
 
 
 /* SWTICH */
 .switch-container {
     border-bottom: 1px solid #d5d6d6;
     border-top: 1px solid #d5d6d6;
-    padding-bottom: 2rem;
-    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 

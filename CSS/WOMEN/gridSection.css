@@ -1,25 +1,10 @@
-@media  (min-width: 992px){
-    .side-panel {
-        flex: 1 1 25%;
-        margin-left: 3rem;
-        margin-right: 4.8rem;
-        max-width: 29.9rem;
-        min-width: 32rem;
-    }
-    }
-
-
-    
 
 
 .grid-section{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding:0;
     width: 100%;
-    
+    margin: 0%;
+    padding:0%;
 }
 
     
@@ -31,7 +16,6 @@
         transition: filter .2s linear,opacity .2s linear;
         transition: filter .2s linear,opacity .2s linear,-webkit-filter .2s linear;
         margin-top: 10px;
-        display: block;
     }
     
 
