@@ -21,7 +21,7 @@
 .links-select{
     padding: 1rem 0 1rem;
 }
-
+tt
 
 
 /* SWTICH */
@@ -97,41 +97,45 @@
 
 
 
-  .browse {
-    align-items: baseline;
+  .browse,.filter{
     border-bottom: 1px solid #d5d6d6;
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 1rem;
     padding-left: 0.9rem;
     padding-top: 0.8rem;
   }
 
+
+  
+
   /* SIDE Panele */
 
-  .nav-cat {
+  .nav-cat,.nav-filter {
     border-bottom: 1px solid #d5d6d6;    
     width : 300px; 
     margin: 20px auto;
   }
+
   
-  .cat-label {
+  .cat-label,.colors-label {
     padding : 5px; 
     color : #000;
     cursor : pointer;
     display: block;
-    
   }
   
   .cat-label::before {
     float:right;    
     content: "+";
     vertical-align: middle;
-    
+  }
+  .colors-label::before {
+    float:right;    
+    content: "+";
+    vertical-align: middle;
   }
  
   
-  .cat-list {
+  .cat-list,.colors-list {
     clear:both;
     width:100%;
     height:0px;
@@ -139,17 +143,27 @@
     margin-left: 1%;
     overflow: hidden;
     transition: height .4s ease;
-    
   }
+
   .cat-list a {
+    color: #000;
+    text-decoration: none;
+  }
+  .colors-list a {
     color: #000;
     text-decoration: none;
   }
   .cat-list a:hover {
     color: #e97b4c;
   }
+  .colors-list a:hover {
+    color: #e97b4c;
+  }
   
   .cat-list li {
+    padding : 5px;
+  }
+  .colors-list li {
     padding : 5px;
   }
   
@@ -160,3 +174,95 @@
   #touch:checked + .cat-list {
     height: 320px;
   }
+  #touch-colors {
+    opacity: 0; 
+    height: 0px;}    
+  
+  #touch-colors:checked + .colors-list {
+    height: 420px;
+  }
+
+
+  /* COLOR Selection */
+.color-palete{
+ display: grid;
+ grid-auto-columns: 1fr 1fr ;
+ grid-template-columns: 1fr 1fr ;
+ grid-gap:1rem;
+ grid-auto-flow: row dense;
+ grid-auto-rows:mimax(min-content,max-content);
+ margin: 10px;
+}
+
+.color-black {
+  display: inline-flex;
+  width: 110px;
+  height: 40px;
+  
+}
+.select-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  width:40px;
+  height: 40px;
+  padding: 5px;
+  transition: all .2s ease-in-out; 
+
+}
+.select-color:hover {
+  border: 1px solid #e97b4c; 
+  transform: scale(1.1); 
+}
+
+.color  {
+  background: #000;
+  border-radius: 10%;
+  width:30px;
+  height: 30px;
+  padding: 5px;
+}
+/* COLORS */
+.black{
+  background: #000;
+}
+.white{
+  border:1px solid #ccc;
+  background: rgb(255, 255, 255);
+}
+.green{
+  background: rgb(50, 111, 15);
+}
+.purple{
+  background: rgb(86, 16, 119);
+}
+.pink{
+  background: rgb(243, 136, 173);
+}
+.brown{
+  background: rgb(141, 56, 9);
+}
+.gray{
+  background: rgb(139, 138, 138);
+}
+.multi{
+  border:1px solid #ccc;
+  background: rgb(255, 255, 255);}
+.neutral{
+  border:1px solid #ccc;
+  background: rgb(255, 255, 255);}
+.orange{
+  background: rgb(209, 123, 11);
+}
+.red{
+  background: rgb(223, 36, 36);
+}
+.blue{
+  background: rgb(51, 48, 219);
+}
+
+
+.name-black {
+padding: 10px;
+}
