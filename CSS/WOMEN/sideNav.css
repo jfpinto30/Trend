@@ -258,5 +258,42 @@ padding: 10px;
 
 /* SIZES */
 
+.sizes{
+  display: grid;
+  grid-auto-columns: 0fr 0fr ;
+  grid-template-columns: 0fr 1fr;
+  grid-gap:1rem;
+  grid-auto-flow: row dense;
+  grid-auto-rows:mimax(min-content,max-content);
+  margin: 5px;
+}
+.size-container{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+}
 
+.select-size {
+  border:1px solid #ccc;
+  width: 40px;
+  height: 40px;
+}
+
+.size-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: all .2s ease-in-out; 
+}
+.size-box {
+  font-size: 10px;
+}
+
+
+.size-box:hover {
+  background-color: #000;
+  color: #ffffff;
+}
 
