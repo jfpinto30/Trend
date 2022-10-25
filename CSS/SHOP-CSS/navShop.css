@@ -1,29 +1,7 @@
-@media only screen and (min-width: 1170px) {
 
-	.navi-trigger { top: 40px;}
-	
-	.navi .navigation-wrapper { padding: 42px 20%; }
-  	
-  	.navi .navigation-wrapper::after {
-    	clear: both;
-    	content: "";
-    	display: table;
-  	}
-  	
-  	.navi .half-block {
-    	width: 50%;
-    	float: left;
-  	}
-  	
-  	.navi .primary-navi { margin-top: 3; }
-  
-  	.navi .primary-navi li {
-    	margin: 2em 0;
-        padding-top:50px ;
-  	}
-  
-  	.navi .primary-navi a { font-size: 2.0rem; }
-}
+
+
+
 @media all and (min-width:310px) and (max-width:1170px) {
 	.navi .primary-navi li {
     	margin: 3em 0;
@@ -69,11 +47,11 @@ ul {
 .navi-trigger {
   	position: fixed;
   	z-index: 3;
-  	right: 5%;
+  	right: 9%;
   	top: 20px;
   	height: 54px;
   	width: 54px;
-	  background-color: #e97b4c;
+	background-color: #e97b4c;
   	border-radius: 50%;
   	overflow: hidden;
   	text-indent: 100%;

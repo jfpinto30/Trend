@@ -3,6 +3,9 @@
     div.banner-img {
       max-width: 100%;
     }
+    div.newArrival h1 {
+        font-size:40px; 
+    }
     }
 
 
@@ -14,17 +17,24 @@
     overflow: hidden;
 }
 
-.banner-img {
-    border: 5px solid pink;
-}
-
 
 .banner-img img{
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
+    z-index: -1;
+  
 }
 
-.banner-img h1 {
-    z-index: 1;
+.newArrival {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.newArrival h1 {
+    position: absolute;
+    left: 5%;
+    padding-top: 40%;
 }
